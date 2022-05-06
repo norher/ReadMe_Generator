@@ -1,15 +1,15 @@
-# README.md Generator
- `## License
-  ${renderLicenseBadge(license)}
+# Professional README.md Generator
+
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  ${renderLicenseLink(license)} 
-    `
+  https://opensource.org/licenses/MIT 
+    
 
   ## Table of contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
   - [Contribution Guidelines](#contribution-guidelines)
   - [Test](#test)
   - [Questions](#questions)
@@ -17,22 +17,19 @@
     - [email](#email)
 
   ## Description 
-  This application takes you through a series of questions through an inquirer NPM about your application, once the input is validated it renders a README.md file
+  This project takes you through a series of questions about your application. It then creates a README.md file based on the answers you've provided.
 
   ## Installation
-  No installation necessary, just run the index.js file though NodeJS
+  No installation necessary, just run it on a CLI with NodeJS
 
   ## Usage
-  This project saves time when writing a README.md, as it creates one in less than 3 minutes.
+  This project aims to save time on the creation of a README.md file. It could generate a README file in less than 3 minutes.
 
   ## Contribution Guidelines
-  Contributions are always welcomed, please just describe everything that you do.
+  No contributions please.
 
   ## Test
-  Test as much as you want, and try to break it and provide feedback.
-
-  ## License
-  
+  Test it as much as possible and provide feedback.
 
   ## Questions
   ### @norher

@@ -36,9 +36,9 @@ const questions = [
         message: "What are the instructions for testing?"
     },
     {
-        type: "checkbox",
-        name: "licenseType",
-        message: "Please select your license",
+        type: 'list',
+        name: 'license',
+        message: 'Which license is used for this project:',
         choices: ["Apache License 2.0", "MIT License", "BSD License", "GPLv3"]
     },
     {
@@ -51,7 +51,6 @@ const questions = [
         name: "email",
         message: "What is your email?"
     },
-    // console.log(`${questions}`)
 ];
 
 
