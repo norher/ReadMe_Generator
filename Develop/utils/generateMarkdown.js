@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+// simple function with lots of if statements for any input given from the list choices. to get a badge.
 function renderLicenseBadge(license) {
     if (license.length === 0) {
       return ""
@@ -32,6 +33,7 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+// takes both the badge and link and puts them together in a section that will be added to the top of the readme file
 function renderLicenseSection(license) {
   if (license.length === 0) {
     return ""
