@@ -25,7 +25,7 @@
 
   ## Screenshot
 
-  ![Sample Image](/Develop/utils/screenshot.png)
+  ![Sample Image](screenshot.png)
 
   ## Installation
   No installation necessary, just run in on a CLI with NodeJs
