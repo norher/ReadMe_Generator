@@ -39,7 +39,7 @@ const questions = [
         type: "checkbox",
         name: "licenseType",
         message: "Please select your license",
-        choices: ["Apache License 2.0", "MIT License", "BSD License", "GNU Public License"]
+        choices: ["Apache License 2.0", "MIT License", "BSD License", "GPLv3"]
     },
     {
         type: "input",
@@ -57,23 +57,27 @@ const questions = [
 
 // TODO: Create a function to write README file
 
-function createMarkdown(fileName, data) {
-    return fs.writeFile(fileName, data), function(err) {
+function writeToFile(fileName, data) {
+    fs.writeFile("./utils/README.md", generateMarkdown(data), function(err) {
         if (err) {
-            return console.log("Sorry, an error was made while making your README, please try again");
-        } else {
-            console.log("Success! your README is being created");
+          return console.log(err);
         }
-     }
+        console.log('Success!');
+      });
 }
 
 // TODO: Create a function to initialize app
-function init() {
+function init() { 
     inquirer.prompt(questions)
-    .then(function(data){
-        createMarkdown("./MD/README.md", generateMarkdown(data));
-    })
-};
+    .then(function(answer) {
+      const fileName =
+        answer.title
+          .split(' ')
+          .join('') + '.md';
+      
+      writeToFile(fileName, answer);
+    });
+}
 
 // Function call to initialize app
 init();
