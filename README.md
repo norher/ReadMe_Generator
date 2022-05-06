@@ -11,6 +11,7 @@
 
   ## Table of contents
   - [Description](#description)
+  - [Screenshot](#Screenshot) 
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution Guidelines](#contribution-guidelines)
@@ -21,6 +22,10 @@
 
   ## Description 
   This application takes you through a series of questions to create a README file based on the input given.
+
+  ## Screenshot
+
+  ![Sample Image](/Develop/utils/screenshot.png)
 
   ## Installation
   No installation necessary, just run in on a CLI with NodeJs
