@@ -17,20 +17,20 @@
     - [email](#email)
 
   ## Description 
-  This project takes you through a series of questions about your application. It then creates a README.md file based on the answers you've provided.
+  This application takes you through a series of questions to create a README file based on the input given.
 
   ## Installation
-  No installation necessary, just run it on a CLI with NodeJS
+  No installation necessary, just run in on a CLI with NodeJs
 
   ## Usage
-  This project aims to save time on the creation of a README.md file. It could generate a README file in less than 3 minutes.
+  This project aims to save time on the creation of a README file. It generates the file in less than 3 minutes.
 
   ## Contribution Guidelines
-  No contributions please.
+  No guidelines
 
   ## Test
-  Test it as much as possible and provide feedback.
+  Test it as much as possible and provide feedback
 
   ## Questions
-  ### @norher
+  ### [norher](https://github.com/norher)
   ### norman.herrera@ymail.com
